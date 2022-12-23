@@ -1,0 +1,27 @@
+.contact {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url('./../assets/testbannerbg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rectangle {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .rectangle::before {
+    content: "";
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    transition: 0.4s ease-in-out;
+  }
+  .rectangle:hover::before {
+    width: 100%;
+  }

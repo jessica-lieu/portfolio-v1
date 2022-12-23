@@ -42,7 +42,7 @@ export const Projects = () => {
     const programming = [];
 
     return(
-        <section className='project' id = 'project'>
+        <section className='project' id = 'projects'>
             <Container>
                 <Row>
                     <Col>
