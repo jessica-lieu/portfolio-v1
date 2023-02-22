@@ -13,8 +13,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-color: black;
+  color: #351e29;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,15 +1,17 @@
 import { Col, Container, Row, Card } from 'react-bootstrap'
 import { Icon } from '@iconify/react';
-import bannerimage from './../assets/testbannerimage.png'
+import ContactImage from './../assets/ContactImage.png'
 import './Contact.css';
 
 export const Contact = () => {
     return(
         <section className='contact' id='contact'>
             <Container>
+                <h1>Let's Get in Touch</h1>
+                <p>If you have any questions or would like to chat further about my work, feel free to reach out!</p>
                 <Row className='align-items-center'>
                     <Col>
-                        <img src={bannerimage} alt='replace later' />
+                        <img src={ContactImage} />
                     </Col>
                     <Col>
                         <a href='mailto:jessicalieu@ucsb.edu'><Card className='rectangle'>

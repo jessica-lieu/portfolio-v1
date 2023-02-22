@@ -1,7 +1,7 @@
 import { Card } from "react-bootstrap";
 import './ProjectCard.css';
 
-/* Figure out the color of the card description and making the description fill the card more */
+/* Figure out on making the description fill the card more */
 
 export const ProjectCard = ({title, description, time, imgUrl, link}) => {
     return (

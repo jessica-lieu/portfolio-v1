@@ -1,17 +1,29 @@
 .project {
-    padding: 80px 0;
+    padding: 45px 0;
     position: relative;
-    background-color: black;
+    background-color: #758FC8;
 }
 
-.project h2 {
+.project h1 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
+    color: white;
+}
+
+.project h2 {
+    color: #EDF6F9;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
 }
   
+/* Changes the description inside the cards */
 .project p {
-    color: #B8B8B8;
+    color: #987182;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -20,6 +32,7 @@
     width: 56%;
 }
 
+/* Figure out how to change the tab color*/
 
 .tabsection {
     padding: 20px 0;

@@ -2,23 +2,25 @@
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url('./../assets/testbannerbg.jpg');
-    background-position: top center;
+    background-image: url('./../assets/BannerBG.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 20px;
+    background: linear-gradient(90.21deg, #7A92CB -5.91%, #987182 111.58%);
+    border: 1px solid #edf6f980;
+    font-size: 25px;
     margin-bottom: 16px;
-    display: inline-block;
+    display: flex;
+    color: white;
 }
-  
+
 .banner h1 {
     font-size: 65px;
     font-weight: 700;
@@ -26,14 +28,15 @@
     line-height: 1;
     margin-bottom: 20px;
     display: block;
+    text-align:left;
 }
 
 .banner p {
-    color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
+    text-align:left;
 }
   
 .banner img {
@@ -52,6 +55,3 @@
     }
   }
   
-.txt-rotate > .wrap {
-    border-right: 0.08em solid #666;
-}

@@ -1,10 +1,11 @@
 import './Projects.css';
 import { Container, Tabs, Tab, Row, Col } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import YelpTIMG from './../assets/YelpTHUMBNAIL.png'
-import TravelocityTIMG from './../assets/TravelocityTHUMBNAIL.png'
-import FFTIMG from './../assets/FreshFareTHUMBNAIL.png'
-import SkinshipTIMG from './../assets/SkinshipTHUMBNAIL.png'
+import YelpTIMG from './../assets/YelpTHUMBNAIL.png';
+import TravelocityTIMG from './../assets/TravelocityTHUMBNAIL.png';
+import FFTIMG from './../assets/FreshFareTHUMBNAIL.png';
+import SkinshipTIMG from './../assets/SkinshipTHUMBNAIL.png';
+import error404 from './../assets/404.png';
 
 export const Projects = () => {
     const uiuxarray = [
@@ -13,7 +14,7 @@ export const Projects = () => {
             description: 'A redesign of the Yelp app to improve the app’s overall cohesion and ease of use',
             time: 'SB Creative Lab: Fall Project Teams (Oct. - Dec. 2022)',
             imgUrl: YelpTIMG,
-            link: 'https://www.figma.com/proto/vrRHjfCoh2BBspKSqNVNaE/Prototyping?page-id=0%3A1&node-id=66%3A5&viewport=3114%2C345%2C0.35&scaling=scale-down&starting-point-node-id=66%3A5&show-proto-sidebar=1',
+            link: 'https://www.figma.com/proto/4b7yXHdDvJ3x9f11ra6S4A/Yelp-Prototype?page-id=0%3A1&node-id=1%3A145&viewport=536%2C470%2C0.29&scaling=scale-down&starting-point-node-id=1%3A145',
         },
         {
             title: 'Travelocity Redesign',
@@ -46,8 +47,8 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>Select the images on the cards to view the project itself!</p>
+                        <h1>Projects</h1>
+                        <h2>Select the images on the cards to view the project itself!</h2>
                         <Tabs defaultActiveKey="uiux" id="project-tabs" className="mb-3" fill>
                             <Tab eventKey="uiux" title="UI/UX">
                                 <div className='tabsection'>
@@ -63,8 +64,7 @@ export const Projects = () => {
                                 </div>
                             </Tab>
                             <Tab eventKey="program" title="Programming">
-                                <h2>404</h2>
-                                <h1>Not Found</h1>
+                                <img src={error404} />
                                 Programming Projects will be inserted later
                             </Tab>
                         </Tabs>

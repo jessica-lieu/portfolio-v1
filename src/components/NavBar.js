@@ -32,7 +32,7 @@ export const NavBar = () => {
         <Navbar expand='lg' className = {scrolled ? 'scrolled':''}>
           <Container>
             <Navbar.Brand href='#home'>
-              <Icon icon='mdi:cat' color='white'/>
+              <Icon icon='mdi:cat'/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav'>
@@ -43,8 +43,8 @@ export const NavBar = () => {
               </Nav>
               <span className='navbar-text'>
                 <div className='social-icon'>
-                    <a href='#'><Icon icon='jam:linkedin' /></a>
-                    <a href='#'><Icon icon='akar-icons:github-fill' /></a>
+                    <a href='https://www.linkedin.com/in/jessica-lieu-58598218a/'><Icon icon='jam:linkedin' /></a>
+                    <a href='https://github.com/jessica-lieu'><Icon icon='akar-icons:github-fill' /></a>
                 </div>
               </span>
             </Navbar.Collapse>
