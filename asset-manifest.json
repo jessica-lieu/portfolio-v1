@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ad86542.css",
+    "main.js": "/static/js/main.8c024059.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/LA-unsplash.jpg": "/static/media/LA-unsplash.f07ecc3cbaf93f583f2a.jpg",
+    "static/media/YelpTHUMBNAIL.png": "/static/media/YelpTHUMBNAIL.afc1b2a49c660ffa735b.png",
+    "static/media/FreshFareTHUMBNAIL.png": "/static/media/FreshFareTHUMBNAIL.0762a0ab09ce7871b8d5.png",
+    "static/media/BannerBG.png": "/static/media/BannerBG.0ddb743ccd0ebf315648.png",
+    "static/media/TravelocityTHUMBNAIL.png": "/static/media/TravelocityTHUMBNAIL.0ffe0e3025e3c9830574.png",
+    "static/media/SkinshipTHUMBNAIL.png": "/static/media/SkinshipTHUMBNAIL.362de022d5e28513e870.png",
+    "static/media/ContactImage.png": "/static/media/ContactImage.3756d22bcf78a0bc0533.png",
+    "static/media/BannerPic.png": "/static/media/BannerPic.6b2b46c28f555cc44672.png",
+    "static/media/404.png": "/static/media/404.c1f9bf32e3983b48724b.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5ad86542.css.map": "/static/css/main.5ad86542.css.map",
+    "main.8c024059.js.map": "/static/js/main.8c024059.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ad86542.css",
+    "static/js/main.8c024059.js"
+  ]
+}
